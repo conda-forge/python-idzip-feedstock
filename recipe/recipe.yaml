@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-idzip
-  version: 0.3.9
+  version: "0.3.10"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/bauman/python-idzip/archive/refs/tags/${{ version }}.zip
-  sha256: 091d77de9732b1883eefdfc4498b9b3aedc3bf577b19f7900d0a0889337f445e
+  sha256: 3bf0044b901f144c9a8f65f3ae6b40ee116feff22de96536dc462fa5bbd218fd
 
 build:
   number: 0
